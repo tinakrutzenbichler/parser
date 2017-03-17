@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "parser.hpp"
+#include "help.hpp"
 
 using namespace std;
 
@@ -61,5 +62,7 @@ int main()
 	int firstInt;
 	firstInt = parseString(input);
 	cout << "Your int is : \n" << firstInt;
+	Help test;
+	test.printHello();
   	return 0;
 }
